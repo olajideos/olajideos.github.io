@@ -109,6 +109,48 @@ h3 {
     line-height: 1.8;
 }
 
+.career-journey {
+    margin: 30px 0;
+}
+
+.journey-section {
+    margin-bottom: 35px;
+    padding: 30px;
+    background: linear-gradient(135deg, rgba(15, 52, 96, 0.4) 0%, rgba(22, 33, 62, 0.3) 100%);
+    border-radius: 15px;
+    border-left: 5px solid #f72585;
+    transition: all 0.3s ease;
+}
+
+.journey-section:hover {
+    transform: translateX(8px);
+    box-shadow: 0 8px 30px rgba(247, 37, 133, 0.3);
+}
+
+.journey-section h4 {
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(247, 37, 133, 0.3);
+}
+
+.journey-section p {
+    color: #d0d0d0;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.journey-section:nth-child(2) {
+    border-left-color: #7209b7;
+}
+
+.journey-section:nth-child(3) {
+    border-left-color: #a8dadc;
+}
+
 .contact-links {
     margin-top: 40px;
     padding-top: 30px;
